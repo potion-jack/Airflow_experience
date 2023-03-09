@@ -1,0 +1,7 @@
+1. 파이썬으로 airflow DAG의 데이터 워크플로 작성
+2. Airflow 스케쥴러가 DAG 폴더의 DAG 파일들을 읽음
+    2_1. Airflow 스케쥴러가 태스크를 예약함
+    2_2. Airflow 스케쥴러가 DAG를 Airflow 메타스토어(db)에 저장
+3. Airflow 워커가 예약된 태스크를 실행함 
+    3_1. Airflow 워커가 태스크 결과를 Airflow 메타스토어(db)에 저장
+4. Airflow 웹서버에서 Airflow 메타스토어(db) 결과를 시각화하여 보여줌
